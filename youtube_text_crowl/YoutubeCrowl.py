@@ -39,7 +39,7 @@ def scroll_page(driver):
     while True:
         driver.execute_script("window.scrollTo(0, document.documentElement.scrollHeight);")
         
-        time.sleep(5.0)
+        time.sleep(7.0)
         
         
         new_page_height = driver.execute_script("return document.documentElement.scrollHeight")
@@ -103,10 +103,11 @@ def get_urls_from_youtube_with_keyword(keyword):
    
     # driver = wd.Chrome(executable_path="/Users/jihyepark/Desktop/Window23/youtube/youtube_text_crowl/chromedriver")
     driver = wd.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    
     # driver = wd.Chrome(executable_path=ChromeDriverManager(version='114.0.5735.90').install(), options=chrome_options)
     # driver = wd.Chrome(executable_path="./chromedriver.exe")
     # driver = wd.Chrome(executable_path="/Users/jihyepark/Downloads/Window23/youtube_text_crowl/chromedriver")
-    # driver = wd.Chrome(executable_path=ChromeDriverManager(version='102.0.5005.63').install(), chrome_options=chrome_options)
+    # driver = wd.Chrome(executable_path=ChromeDriverManager(version='114.0.5735.90').install(), chrome_options=chrome_options)
 
     driver.maximize_window()
     
@@ -136,10 +137,11 @@ def get_channel_video_url_list(channel_url):
     chrome_options = wd.ChromeOptions()
     # driver = wd.Chrome(executable_path="/Users/jihyepark/Desktop/Window23/youtube/youtube_text_crowl/chromedriver")
     driver = wd.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
     # driver = wd.Chrome(executable_path=ChromeDriverManager(version='114.0.5735.90').install(), options=chrome_options)
     # driver = wd.Chrome(executable_path="./chromedriver.exe")
     # driver = wd.Chrome(executable_path="/Users/jihyepark/Downloads/Window23/youtube_text_crowl/chromedriver")
-    # driver = wd.Chrome(executable_path=ChromeDriverManager(version='102.0.5005.63').install(), chrome_options=chrome_options)
+    # driver = wd.Chrome(executable_path=ChromeDriverManager(version='114.0.5735.90').install(), chrome_options=chrome_options)
     driver.maximize_window()
     
     driver.get(channel_url)
@@ -169,13 +171,13 @@ def crawl_youtube_page_html_sources(urls):
         driver = wd.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
         # driver = wd.Chrome(executable_path=ChromeDriverManager(version='114.0.5735.90').install(), options=chrome_options)
         # driver = wd.Chrome(executable_path="./chromedriver.exe")
-        driver = wd.Chrome(executable_path="/Users/jihyepark/Downloads/Window23/youtube_text_crowl/chromedriver")
-        # driver = wd.Chrome(executable_path=ChromeDriverManager(version='102.0.5005.63').install(), chrome_options=chrome_options)
+        
+        # driver = wd.Chrome(executable_path=ChromeDriverManager(version='114.0.5735.90').install(), chrome_options=chrome_options)
 
         driver.maximize_window()
         driver.get(urls[idx]['url'])
         
-        time.sleep(5.0)
+        time.sleep(7.0)
         
         scroll(driver)
         
@@ -247,7 +249,7 @@ def convert_crawl_result_dict_to_csv(crawl_result_dict):
 crawling_result_list = []
 
 titles, urls = get_urls_from_youtube_with_keyword(
-    keyword = "공부할 때 듣기 좋은 노래"
+    keyword = "슬퍼지기 전에 듣는 음악"
 )
 
 
