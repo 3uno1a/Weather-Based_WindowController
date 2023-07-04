@@ -8,10 +8,13 @@
 시스템 아키텍처
 ![image](https://github.com/eunjijen/Window23/assets/75493219/fbde4670-0f51-4b27-ae9b-e0934e1b331b)
 
-
 회로도
 ![image](https://github.com/eunjijen/Window23/assets/75493219/7349f33e-d8b5-44e0-a9c1-87aef26c1fe2)
 
 
 어플리케이션 화면
 ![image](https://github.com/eunjijen/Window23/assets/75493219/dbe4ffd3-aecc-4710-af40-6e3c57ba0b12)
+
+
+Django Rest API
+![image](https://github.com/eunjijen/Window23/assets/75493219/781c4d09-0b92-4e00-bd1e-9f489657a4e9)
