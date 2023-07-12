@@ -13,10 +13,13 @@
 시스템 아키텍처
 ![image](https://github.com/eunjijen/Window23/assets/75493219/fbde4670-0f51-4b27-ae9b-e0934e1b331b)
 
+개발 도구
+![image](https://github.com/eunjijen/Window23/assets/75493219/b7d0e639-7f43-4e0e-aed3-dd11e41e73d1)
 
 
 회로도
-![image](https://github.com/eunjijen/Window23/assets/75493219/7349f33e-d8b5-44e0-a9c1-87aef26c1fe2)
+![image](https://github.com/eunjijen/Window23/assets/75493219/7a51fe34-ad03-43df-92da-55314334e941)
+
 
 
 
