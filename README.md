@@ -2,11 +2,6 @@
 
 프로젝트 기간: 2023.05.26 ~ 2023.07.04
 
-인원: 2명
-
-![image](https://github.com/eunjijen/Window23/assets/75493219/9a6b6bea-c94d-4ffa-8966-30b4bb3f760f)
-
-
 담당 : IoT (Raspberry Pi로 센서 연결 및 창문 제어, 센서 데이터 연동, Android Studio 앱 제작, Djgnao Server - Rest API로 데이터 업로드)
 
 
