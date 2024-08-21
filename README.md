@@ -18,7 +18,3 @@
 어플리케이션 화면
 ![image](https://github.com/eunjijen/Window23/assets/75493219/dbe4ffd3-aecc-4710-af40-6e3c57ba0b12)
 
-
-
-Django Rest API
-![image](https://github.com/eunjijen/Window23/assets/75493219/781c4d09-0b92-4e00-bd1e-9f489657a4e9)
