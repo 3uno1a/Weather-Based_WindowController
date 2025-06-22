@@ -8,7 +8,7 @@
 - 모터/센서 선정 및 회로 구성
 - Raspberry Pi를 활용한 강우센서, 미세먼지 센서, dc 모터, 온도 센서, neo pixel led, speaker 제어 
 - Android Studio를 활용한 App 개발
-- Djgnao Rest API로 데이터 전달
+- Django Rest API로 데이터 전달 (RPI - Rest API - App)
 
 
 ### 시스템 아키텍처
