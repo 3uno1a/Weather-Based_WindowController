@@ -21,3 +21,6 @@
 ### 어플리케이션 화면
 ![image](https://github.com/eunjijen/Window23/assets/75493219/dbe4ffd3-aecc-4710-af40-6e3c57ba0b12)
 
+- 창문 버튼/음성 제어 가능
+- 실시간 데이터 연동
+- 미세먼지 수치에 따른 컬러 구분 (red, yellow, green)
