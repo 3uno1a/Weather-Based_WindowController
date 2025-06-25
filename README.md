@@ -1,4 +1,4 @@
-# Window23
+# 🪟Window23
 ## Project Info
 - 📅 Duration: 2023.05.26 ~ 2023.07.04 
 - 👥 Team: 2 members 
